@@ -1,6 +1,6 @@
 import ClientEngine from 'lance/ClientEngine';
-import MyRenderer from '../client/MyRenderer';
 import KeyboardControls from 'lance/controls/KeyboardControls';
+import MyRenderer from '../client/MyRenderer';
 
 export default class MyClientEngine extends ClientEngine {
 
@@ -10,9 +10,5 @@ export default class MyClientEngine extends ClientEngine {
         this.controls = new KeyboardControls(this);
         this.controls.bindKey('up', 'up', { repeat: true } );
         this.controls.bindKey('down', 'down', { repeat: true } );
-        this.controls.bindKey('left', 'left', { repeat: true });
-        this.controls.bindKey('right', 'right', { repeat: true });
-        this.controls.bindKey('space', 'space');
     }
-
 }

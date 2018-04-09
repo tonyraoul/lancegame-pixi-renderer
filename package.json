@@ -18,10 +18,11 @@
     "webpack": "^3.8.1"
   },
   "devDependencies": {
-    "babelify": "^7.3.0",
     "babel-cli": "^6.26.0",
+    "babelify": "^7.3.0",
     "eslint": "^3.16.1",
-    "eslint-config-google": "^0.7.1"
+    "eslint-config-google": "^0.7.1",
+    "pixi.js": "^4.7.3"
   },
   "scripts": {
     "start": "babel-node main.js --presets es2015",
