@@ -17,7 +17,6 @@ export default class MyRenderer extends Renderer {
 
     draw(t, dt) {
         super.draw(t, dt);
-
         for (let objId of Object.keys(this.sprites)) {
             if (this.sprites[objId]) {
                 this.sprites[objId].y = this.gameEngine.world.objects[objId].position.y;

@@ -23,6 +23,7 @@ export default class MyGameEngine extends GameEngine {
     registerClasses(serializer) {
         serializer.registerClass(Paddle);
         serializer.registerClass(Ball);
+        serializer.registerClass(PlayerAvatar);
     }
 
     start() {
